@@ -1,0 +1,13 @@
+C:\iar\ewarm-9.60.3\arm\bin\armPROC.dll
+
+ C:\iar\ewarm-9.60.3\arm\bin\armSIM2.dll
+
+ C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Exe\Lab1_2.out
+
+ --plugin=C:\iar\ewarm-9.60.3\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.60.3\arm/config/debugger/Microchip/SAM3XA.dmac
+
+ 
+
+

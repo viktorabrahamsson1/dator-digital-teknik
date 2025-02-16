@@ -11,7 +11,7 @@ LOOP  CMP R0, # 9       ; compare (R0) to 9
       ADD R1, R1, # 1   ; update first: (R1) <(R1) + 1
       B ADD1            ; jump to ADD1
 ADD0 ADD R0, R0, # 1    ; (R0) <(R0) + 1
-ADD1 CMP R1, # 10       ; compare (R1) to 10
-      BNE LOOP          ; different> jump to LOOP, repeat
+ADD1 CMP R1, # 10       ; compare (R1) to 10 
+     BNE LOOP          ; different> jump to LOOP, repeat
 STOP B STOP             ; infinite walk
      END

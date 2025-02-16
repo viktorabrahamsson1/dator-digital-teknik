@@ -1,0 +1,8 @@
+# ninja log v5
+24	49	7613406663829168	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Obj/startup_sam3x.o	aff3dc30f7cce84e
+1	34	7613408226233419	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Obj/asm.o	48385bc3cd2ccda9
+35	116	7613408226998610	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Exe/Lab1_3.out	bda21349bf724ebb
+0	34	7613411517804275	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Obj/asm.o	48385bc3cd2ccda9
+35	108	7613411518506506	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Exe/Lab1_3.out	bda21349bf724ebb
+0	35	7614026994973346	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Obj/asm.o	48385bc3cd2ccda9
+36	205	7614026996617862	C:/Users/Dator/Desktop/Developer/dator-digital-teknik/DAT-Labs/Lab1_3/Debug/Exe/Lab1_3.out	bda21349bf724ebb

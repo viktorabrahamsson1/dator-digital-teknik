@@ -1,27 +1,27 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.60.3.422/W64 for ARM                  15/Feb/2025  15:52:55
+# IAR ELF Linker V9.60.3.422/W64 for ARM                  15/Feb/2025  16:51:04
 # Copyright 2007-2024 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Exe\Lab1_1.out
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Exe\Lab1_2.out
 #    Map file     =
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\List\Lab1_1.map
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\List\Lab1_2.map
 #    Command line =
 #        -f
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Exe\Lab1_1.out.rsp
-#        (C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Obj\asm.o
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Obj\startup_sam3x.o
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Exe\Lab1_2.out.rsp
+#        (C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Obj\asm.o
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Obj\startup_sam3x.o
 #        --no_out_extension -o
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Exe\Lab1_1.out
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Exe\Lab1_2.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\List\Lab1_1.map
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\List\Lab1_2.map
 #        --config
 #        C:\iar\ewarm-9.60.3\arm/config/linker/Microchip/sam3x8/flash.icf
 #        --semihosting --no_library_search --no_entry --vfe --text_out locale
 #        --cpu=Cortex-M3 --fpu=None) --dependencies=n
-#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Exe\Lab1_1.out.iar_deps
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Exe\Lab1_2.out.iar_deps
 #
 ###############################################################################
 
@@ -43,16 +43,16 @@ No sections matched the following patterns:
   .intvec  ro code  0x8'0000          4   0xf4  startup_sam3x.o [1]
                   - 0x8'00f4              0xf4
 
-"P1":                                    0x1ec
+"P1":                                    0x1f0
   .text    ro code  0x8'00f4          4  0x1cc  startup_sam3x.o [1]
-  .text    ro code  0x8'02c0          4   0x20  asm.o [1]
-                  - 0x8'02e0             0x1ec
+  .text    ro code  0x8'02c0          4   0x24  asm.o [1]
+                  - 0x8'02e4             0x1f0
 
 Unused ranges:
 
       From        To      Size
       ----        --      ----
-  0x8'02e0  0xf'ffff  0x7'fd20
+  0x8'02e4  0xf'ffff  0x7'fd1c
 
 
 
@@ -66,14 +66,14 @@ command line/config:
     ------------------------
     Total:
 
-C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Obj: [1]
-    asm.o                 32
+C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Obj: [1]
+    asm.o                 36
     startup_sam3x.o      704
     ------------------------
-    Total:               736
+    Total:               740
 
 ----------------------------
-    Grand Total:         736
+    Grand Total:         740
 
 
 *******************************************************************************
@@ -140,9 +140,9 @@ __iar_program_start     0x8'0239        Code  Gb  startup_sam3x.o [1]
 main                    0x8'02c1        Code  Gb  asm.o [1]
 
 
-[1] = C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_1\Debug\Obj
+[1] = C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab1_2\Debug\Obj
 
-  736 bytes of readonly  code memory
+  740 bytes of readonly  code memory
 
 Errors: none
 Warnings: none
