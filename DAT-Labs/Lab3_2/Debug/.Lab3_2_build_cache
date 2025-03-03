@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Exe\Lab3_2.out</Path>
+            <Output>
+                <Path>C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\List\Lab3_2.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

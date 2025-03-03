@@ -1,0 +1,148 @@
+###############################################################################
+#
+# IAR ELF Linker V9.60.3.422/W64 for ARM                  27/Feb/2025  13:05:21
+# Copyright 2007-2024 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Exe\Lab3_2.out
+#    Map file     =
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\List\Lab3_2.map
+#    Command line =
+#        -f
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Exe\Lab3_2.out.rsp
+#        (C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Obj\asm.o
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Obj\startup_sam3x.o
+#        --no_out_extension -o
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Exe\Lab3_2.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\List\Lab3_2.map
+#        --config
+#        C:\iar\ewarm-9.60.3\arm/config/linker/Microchip/sam3x8/flash.icf
+#        --semihosting --no_library_search --no_entry --vfe --text_out locale
+#        --cpu=Cortex-M3 --fpu=None) --dependencies=n
+#        C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Exe\Lab3_2.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x8'0000 { ro section .intvec };
+"P1":  place in [from 0x8'0000 to 0xf'ffff] { ro };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section  Kind      Address  Alignment   Size  Object
+  -------  ----      -------  ---------   ----  ------
+"A0":                                     0xf4
+  .intvec  ro code  0x8'0000          4   0xf4  startup_sam3x.o [1]
+                  - 0x8'00f4              0xf4
+
+"P1":                                    0x1fe
+  .text    ro code  0x8'00f4          4  0x1cc  startup_sam3x.o [1]
+  .text    ro code  0x8'02c0          4   0x32  asm.o [1]
+                  - 0x8'02f2             0x1fe
+
+Unused ranges:
+
+      From        To      Size
+      ----        --      ----
+  0x8'02f2  0xf'ffff  0x7'fd0e
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module           ro code
+    ------           -------
+command line/config:
+    ------------------------
+    Total:
+
+C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Obj: [1]
+    asm.o                 50
+    startup_sam3x.o      704
+    ------------------------
+    Total:               754
+
+----------------------------
+    Grand Total:         754
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+ADC_Handler             0x8'0203        Code  Wk  startup_sam3x.o [1]
+BusFault_Handler        0x8'0107        Code  Wk  startup_sam3x.o [1]
+CAN0_Handler            0x8'0227        Code  Wk  startup_sam3x.o [1]
+CAN1_Handler            0x8'022d        Code  Wk  startup_sam3x.o [1]
+DACC_Handler            0x8'0209        Code  Wk  startup_sam3x.o [1]
+DMAC_Handler            0x8'020f        Code  Wk  startup_sam3x.o [1]
+EEFC0_Handler           0x8'0149        Code  Wk  startup_sam3x.o [1]
+EEFC1_Handler           0x8'014f        Code  Wk  startup_sam3x.o [1]
+EMAC_Handler            0x8'0221        Code  Wk  startup_sam3x.o [1]
+HSMCI_Handler           0x8'01a3        Code  Wk  startup_sam3x.o [1]
+HardFault_Handler       0x8'00fb        Code  Wk  startup_sam3x.o [1]
+MemoryManagementFault_Handler
+                        0x8'0101        Code  Wk  startup_sam3x.o [1]
+NMI_Handler             0x8'00f5        Code  Wk  startup_sam3x.o [1]
+PIOA_Handler            0x8'0167        Code  Wk  startup_sam3x.o [1]
+PIOB_Handler            0x8'016d        Code  Wk  startup_sam3x.o [1]
+PIOC_Handler            0x8'0173        Code  Wk  startup_sam3x.o [1]
+PIOD_Handler            0x8'0179        Code  Wk  startup_sam3x.o [1]
+PIOE_Handler            0x8'017f        Code  Wk  startup_sam3x.o [1]
+PIOF_Handler            0x8'0185        Code  Wk  startup_sam3x.o [1]
+PMC_Handler             0x8'0143        Code  Wk  startup_sam3x.o [1]
+PWM_Handler             0x8'01fd        Code  Wk  startup_sam3x.o [1]
+PendSV_Handler          0x8'0119        Code  Wk  startup_sam3x.o [1]
+RSTC_Handler            0x8'012b        Code  Wk  startup_sam3x.o [1]
+RTC_Handler             0x8'0131        Code  Wk  startup_sam3x.o [1]
+RTT_Handler             0x8'0137        Code  Wk  startup_sam3x.o [1]
+SDRAMC_Handler          0x8'0161        Code  Wk  startup_sam3x.o [1]
+SMC_SDRAMC_Handler      0x8'015b        Code  Wk  startup_sam3x.o [1]
+SPI0_Handler            0x8'01b5        Code  Wk  startup_sam3x.o [1]
+SPI1_Handler            0x8'01bb        Code  Wk  startup_sam3x.o [1]
+SSC_Handler             0x8'01c1        Code  Wk  startup_sam3x.o [1]
+SUPC_Handler            0x8'0125        Code  Wk  startup_sam3x.o [1]
+SVCall_Handler          0x8'0113        Code  Wk  startup_sam3x.o [1]
+SysTick_Handler         0x8'011f        Code  Wk  startup_sam3x.o [1]
+TC0_Handler             0x8'01c7        Code  Wk  startup_sam3x.o [1]
+TC1_Handler             0x8'01cd        Code  Wk  startup_sam3x.o [1]
+TC2_Handler             0x8'01d3        Code  Wk  startup_sam3x.o [1]
+TC3_Handler             0x8'01d9        Code  Wk  startup_sam3x.o [1]
+TC4_Handler             0x8'01df        Code  Wk  startup_sam3x.o [1]
+TC5_Handler             0x8'01e5        Code  Wk  startup_sam3x.o [1]
+TC6_Handler             0x8'01eb        Code  Wk  startup_sam3x.o [1]
+TC7_Handler             0x8'01f1        Code  Wk  startup_sam3x.o [1]
+TC8_Handler             0x8'01f7        Code  Wk  startup_sam3x.o [1]
+TRNG_Handler            0x8'021b        Code  Wk  startup_sam3x.o [1]
+TWI0_Handler            0x8'01a9        Code  Wk  startup_sam3x.o [1]
+TWI1_Handler            0x8'01af        Code  Wk  startup_sam3x.o [1]
+UART_Handler            0x8'0155        Code  Wk  startup_sam3x.o [1]
+UOTGHS_Handler          0x8'0215        Code  Wk  startup_sam3x.o [1]
+USART0_Handler          0x8'018b        Code  Wk  startup_sam3x.o [1]
+USART1_Handler          0x8'0191        Code  Wk  startup_sam3x.o [1]
+USART2_Handler          0x8'0197        Code  Wk  startup_sam3x.o [1]
+USART3_Handler          0x8'019d        Code  Wk  startup_sam3x.o [1]
+UsageFault_Handler      0x8'010d        Code  Wk  startup_sam3x.o [1]
+WDG_Handler             0x8'013d        Code  Wk  startup_sam3x.o [1]
+__iar_program_start     0x8'0239        Code  Gb  startup_sam3x.o [1]
+main                    0x8'02c1        Code  Gb  asm.o [1]
+
+
+[1] = C:\Users\Dator\Desktop\Developer\dator-digital-teknik\DAT-Labs\Lab3_2\Debug\Obj
+
+  754 bytes of readonly  code memory
+
+Errors: none
+Warnings: none
