@@ -44,11 +44,11 @@
                 </option>
                 <option>
                     <name>Input description</name>
-                    <state>Full formatting.</state>
+                    <state>Full formatting, without multibyte support.</state>
                 </option>
                 <option>
                     <name>Output description</name>
-                    <state>Full formatting.</state>
+                    <state>Full formatting, without multibyte support.</state>
                 </option>
                 <option>
                     <name>GOutputBinary</name>
@@ -56,7 +56,7 @@
                 </option>
                 <option>
                     <name>OGCoreOrChip</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>GRuntimeLibSelect</name>
@@ -74,11 +74,11 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.50.1.69312</state>
+                    <state>9.60.3.7274</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>Default	None</state>
+                    <state>ATSAM3X8E	Microchip ATSAM3X8E</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -120,21 +120,21 @@
                 <option>
                     <name>CoreVariant</name>
                     <version>34</version>
-                    <state>52</state>
+                    <state>38</state>
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>Default	None</state>
+                    <state>ATSAM3X8E	Microchip ATSAM3X8E</state>
                 </option>
                 <option>
                     <name>FPU2</name>
                     <version>0</version>
-                    <state>5</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>NrRegs</name>
                     <version>0</version>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>NEON</name>
@@ -143,7 +143,7 @@
                 <option>
                     <name>GFPUCoreSlave2</name>
                     <version>34</version>
-                    <state>52</state>
+                    <state>38</state>
                 </option>
                 <option>
                     <name>OGCMSISPackSelectDevice</name>
@@ -214,7 +214,7 @@
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
                     <version>34</version>
-                    <state>52</state>
+                    <state>38</state>
                 </option>
                 <option>
                     <name>GOutputSo</name>
@@ -772,11 +772,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\generic.icf</state>
+                    <state>$TOOLKIT_DIR$/config/linker/Microchip/sam3x8/flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1009,7 +1009,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>Lab3_3_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2201,5 +2201,8 @@
     </configuration>
     <file>
         <name>$PROJ_DIR$\asm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\..\..\..\..\Downloads\startup_sam3x.s</name>
     </file>
 </project>

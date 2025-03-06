@@ -15,5 +15,8 @@
     <project>
         <path>$WS_DIR$\Lab3_2\Lab3_2.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\Lab3_3\Lab3_3.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
